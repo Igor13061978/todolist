@@ -1,0 +1,153 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1, p, ul {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    flex-grow: 3;
+}
+
+.header {
+    height: 80px;
+    background-color: #1565c0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border-bottom: 1px solid white;  */
+}
+
+.logo {
+    height: 90%;
+    width: auto;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header .logo .logo_img   {
+    height: 80%;
+    width: auto;
+}
+
+.header .logo .logo_img img{
+    height: 100%;
+    width: auto;
+}
+
+.header .nav {
+    height: 90%;
+    width: auto;
+    margin-right: 20px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav ul li{
+    margin-left: 10px;
+    height: 60px;
+    border-radius: 10px;
+    /* background-color: green; */
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    transition: 0.7s;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    transition: width 0.5s ease-out;
+    font-size: 20px;
+}
+
+.nav ul li a:hover {
+    color: rgb(206, 176, 7);
+}
+
+.nav ul li a:after {
+	display: block;
+    position: absolute;
+    bottom: -10px;
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 2px; /*задаём ширину линии*/
+	background-color: white; /*задаём цвет линии*/
+	content: "";
+	transition: width 0.5s ease-out; /*задаём время анимации*/
+}
+
+.nav ul li a:hover:after,
+.nav ul li a:focus:after {
+    width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+
+.present {
+    background-color: #1565c0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.present .present-text {
+    height: 80%;
+    width: 46%;
+    padding: 10px;
+    color: white;
+}
+
+.present .present-text h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.present .present-text p {
+    font-size: 21px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+
+
+.present .present-img {
+    height: 80%;
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.present .present-img img {
+    height: 100%;
+    width: auto;
+}
+
+@media all and (max-width: 800px) {
+
+}

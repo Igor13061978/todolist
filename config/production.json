@@ -1,0 +1,6 @@
+{
+    "port": 5000,
+    "jwtSecret": "Gavrusha Igor Notes",
+    "mongoUri": "mongodb+srv://igorden:avel13061978@cluster0.c3cez.mongodb.net/todolist?retryWrites=true&w=majority",
+    "baseUrl": "localhost:5000"
+}

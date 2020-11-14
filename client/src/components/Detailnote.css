@@ -1,0 +1,16 @@
+.form-group h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #1565c0;
+    margin-bottom: 10px;
+}
+
+.form-group p {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #c2185b;
+    font-weight: bold;
+    height: auto;
+    border-bottom: 1px solid  #1565c0;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #0d47a1;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.navbar ul .screen-small{
+    display: none;
+}
+
+.navbar ul li a {
+    color: white;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+
+    .navbar ul .screen-large{
+        display: none;
+    }
+    .navbar ul .screen-small{
+        display: unset;
+    }
+}

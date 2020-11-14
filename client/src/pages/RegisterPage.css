@@ -1,0 +1,86 @@
+.container-fluid {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #1565c0;
+}
+
+nav {
+    background-color: #1565c0;
+    box-shadow: none;
+}
+
+main {
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.card .card-title {
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+.card .card-content p {
+    text-indent: 20px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.present-text {
+    background-color: teal;
+}
+
+.input-field {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.but-active {
+    display: flex;
+    flex-direction: column;
+}
+
+.but-active button {
+    margin-top: 20px;
+}
+
+.page-footer {
+    background-color: #1565c0;
+    box-shadow: none;
+    padding: 0;
+}
+
+.page-footer .footer-copyright {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.page-footer .footer-copyright p {
+    display: inline;
+    font-weight: bold;
+    margin: 0;
+}
+
+@media screen and (max-width: 1240px) {
+    .card .card-content p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .card .card-content p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card.large {
+        height: auto;
+    }
+}

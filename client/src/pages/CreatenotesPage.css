@@ -1,0 +1,26 @@
+.card-title{
+    color: #0d47a1;
+}
+
+.card.large {
+    height: auto;
+}
+
+input.yellow-input {
+    border-bottom: 1px solid #fff!important;
+    box-shadow: 0 1px 0 0 #fff!important;
+    color: #ffeb3b;
+}
+
+input.yellow-input + label {
+    color: #ffffff!important;
+}
+
+input.yellow-input:focus + label {
+    color: #ffeb3b!important;
+}
+
+input.yellow-input:focus {
+    border-bottom: 1px solid #ffeb3b!important;
+    box-shadow: 0 1px 0 0 #ffeb3b!important;
+}
